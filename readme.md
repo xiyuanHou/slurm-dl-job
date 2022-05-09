@@ -2,6 +2,7 @@ Run deep learning job in HPC using SLURM
 1. download MINIST dataset  `$ wget https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz`
 1. git clone this repo to your path
 1. update data path in MNIST.py
+1. check pkg list in requirements.txt file.
 1. submit job `$ sbatch MNIST.sh`
 1. check status `$ squeue`
 1. check output file `$ ls`
